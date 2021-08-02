@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ 
+<html>
+  <head>
+  <title> Início </title>
+  <meta name="description" content="Dodos de Mayzon C. Santos">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ </head>
+   
+<!--   <frameset rows="20%,80%,20%"> -->
+    <frameset rows="20%,80%,10%">
+        <frame name="head" src="header.html" noresize="no">
+		<!-- A linha de código abaixo é para espaçameento da coluna menu -->
+        <frameset cols="10%,*">
+         <frame name="menu" src="menu.html" noresize="no"></frame>
+	<script>
+
+		window.onload = alert(localStorage.getItem("valueText")); 
+		'<frame name="conteudo" src= localStorage.getItem("valueText") noresize="no"></frame>'
+
+	
+	</script>
+
+	<frame name="conteudo" src= "home.html" noresize="no"></frame>		
+     </frameset>
+        <frame name="foot" src="foot.html" noresize="no">
+    </frameset>
+
+
+</html
